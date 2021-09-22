@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Task 2</title>
+</head>
+
+<body>
+    <div class="table-block">
+        <div class="filter">
+            <input type="text" class="filter-text" placeholder="Фильтр">
+            <button class="filter-btn">ОК</button>
+        </div>
+        <table class="main-table" border="1">
+            <thead>
+                <tr>
+                    <th class="table-header">ID<img src="img/sort-up.svg" width="10px" class="sort-order id-order">
+                        <div class="separator"></div>
+                    </th>
+                    <th class="table-header">Name<img src="img/sort-up.svg" class="sort-order name-order hidden">
+                        <div class="separator"></div>
+                    </th>
+                    <th class="table-header">Value<img src="img/sort-up.svg" class="sort-order value-order hidden">
+                        <div class="separator"></div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="columnResize.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
